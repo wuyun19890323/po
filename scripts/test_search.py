@@ -16,5 +16,7 @@ class TestSearch:
         self.search_page.input_content("hello")
         self.search_page.back_click()
 
-    
+    def test_001(self):
+        print("123")
+        assert 0
 
